@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+	<!--移动端的常用适配-->
+		<title>微信小场景的制作</title>
+		<link rel = "stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/weixin.css" />
+		
+	</head>
+	<body>
+		<div class="swiper-container">
+    	<div class="swiper-wrapper">
+        	<div class="swiper-slide slide1">
+        		<img class="miusec" src="img/miusec.png" />
+        		<img class="lo" src="img/lo.png" />
+        		<img class="line" src="img/line.png" />
+        		<img class="logo" src="img/logo.png" />
+        		<span class="chose">选择林氏金融财富步步为盈</span>
+        		<span class="company">林氏金融信息服务有限公司</span>
+        		<img class="egg" src="img/egg.png" />
+        	</div>
+        	<div class="swiper-slide slide2">
+        		<img class="miusec" src="img/miusec.png" />
+        		<span class="about">关于林氏</span>
+        		<img class="line" src="img/line.png" />
+        		<span class="page2-title">公司实力是资金安全的保障</span>
+        		<p class="page2-content">林氏金融是一家专业从事P2P信息分享、咨询服务、投资贷款、理财交易于一体的大型互联网金融信息集团，旗下拥有包括林氏资产、林氏商务咨询等多家子公司。林氏金融于2014年12月7日注册于北京，注册资金人民币10亿元，实激到位10亿元。</p>
+        		<img class="chess" src="img/Chess.png" />
+        	</div>
+        	<div class="swiper-slide slide3">
+        		<img class="miusec" src="img/miusec.png" />
+        		<span class="Development">企业发展历程</span>
+        		<img class="line" src="img/line.png" />
+        		<img class="sky" src="img/sky.png"/>
+        		<img class="Eagle" src="img/Eagle.png" />
+        		<img class="star1" src="img/star.png" />
+        		<img class="star2" src="img/star.png" />
+        		<img class="dot1" src="img/dot.png"/><span class="span1">2015/12/8 企业起飞</span>
+        		<img class="dot2" src="img/dot.png"/><span class="span2">2016/2/3  制定《数据》促进新经济</span>
+        		<img class="dot3" src="img/dot.png"/><span class="span3">2016/4/   林氏金融携手深圳等发起育树认养计划</span>
+        		<img class="dot4" src="img/dot.png"/><span class="span4">2016/5/25 林氏金融交易额突破50亿</span>
+        		<img class="dot5" src="img/dot.png"/><span class="span5">2016/6/21 林氏荣获“2016年度中国软件行业值得信赖品牌奖”</span>
+        	</div>
+        	<div class="swiper-slide slide4">
+        	<img class="miusec" src="img/miusec.png" />
+        	<span class="about">关于林氏</span>
+        	<img class="line" src="img/line.png" />
+        	<span class="Creditor">债权转让模式</span>
+        	<span class="Pattern">”多对多”模式</span>
+        	<p class="page4content">是指借贷双方不直接签订债权债务合同，而是通过第三方现行放款给资金需求者，再有第三方个人讲债权转让给投资者。（这里可以输入相关文字内容</p>
+        	<img class="shalou1" src="img/shalou1.png" />
+        	<img class="shalou2" src="img/shalou2.png" />
+        	</div>
+    	</div>
+		</div>
+		<embed src="css/韩红 - 月亮.mp3" autostart="true" width="400" height="20" loop="true" hidden="false"> 
+	</body>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		 var mySwiper = new Swiper ('.swiper-container', {
+    		 direction: 'vertical',
+//  		 loop: true,
+  		})  
+  		
+  		function reset(){
+  			var html = document.querySelector("html");
+  			var oWidth = document.body.clientWidth||document.documentElement.clientWidth;
+  			html.style.fontSize = oWidth/640*100+"px";
+  		}
+  		window.onload = function(){
+  			reset();
+  		}
+  		window.onresize = function(){
+  			reset();
+  		}
+	</script>
+</html>
